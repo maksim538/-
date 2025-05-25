@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    
+}
+.icon{
+    text-decoration:none;
+    color: white ;
+}
+main{
+  bottom:-40px;
+     background-color:  #A2EF00;
+}
+header{
+    background-color: #A2EF00;
+ 
+}
+h1{
+    color: rgb(32, 0, 146);
+}
+footer{
+background-color: #A2EF00	;
+color: #FD0006
+}
+nav{
+
+}
+a{
+text-decoration: none;
+font-size: 20px;
+color: white;
+background: linear-gradient(#70ED3B,#FD0006);
+padding: 10px;
+border-radius: 10px;
+}
+a:hover{
+    background-color: royalblue;
+    transition: background-color 0,1s linear;
+    box-shadow: 3px 5px 10px 0 rgb(25,163 , 255);
+}
+option {
+    color: #FD0006;
+    
+}
+select {
+    background:#A2EF00	;
+}
+.discount{
+    background: linear-gradient(#70ED3B,#FD0006); ;
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px
+}
